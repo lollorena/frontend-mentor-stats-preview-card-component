@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.background {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(233, 47%, 7%);
+}
+
+.container {
+  display: flex;
+  background-color: hsl(244, 38%, 16%);
+  width: 120vh;
+  height: 50vh;
+}
+
+.column-1 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.column-1 .title {
+  margin-top: 50px;
+  width: 70%;
+  color: hsl(0, 0%, 100%);
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+}
+
+.column-1 .title span {
+  color: hsl(277, 64%, 61%);
+}
+
+.column-1 .description {
+  width: 70%;
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+
+.column-1 .info {
+  display: flex;
+  align-items: flex-end;
+  gap: 50px;
+}
+
+.column-1 .info .item-1,
+.item-2,
+.item-3 {
+  width: 100%;
+}
+
+.column-1 .info h3 {
+  color: hsl(0, 0%, 100%);
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+}
+
+.column-1 .info p {
+  color: hsla(0, 0%, 100%, 0.6);
+  font-family: "Lexend Deca", sans-serif;
+  text-transform: uppercase;
+}
+
+.column-2 {
+  display: flex;
+  width: 50%;
+  background-color: rgb(118, 20, 157);
+}
+
+.column-2 img {
+  width: 100%;
+  filter: opacity(45%);
+}
